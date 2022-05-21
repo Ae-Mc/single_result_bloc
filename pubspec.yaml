@@ -1,6 +1,6 @@
 name: single_result_bloc
 description: Bloc extension, that adds support of one-time events
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/Ae-Mc/single_result_bloc
 
 environment:

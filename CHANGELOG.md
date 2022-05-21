@@ -1,3 +1,7 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+- Initial release. Add base classes
+
+## 0.0.2
+
+- Export `SingleResultBlocBuilder` class from `single_result_bloc.dart`
