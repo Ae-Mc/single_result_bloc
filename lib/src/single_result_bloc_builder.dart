@@ -3,7 +3,7 @@ library single_result_bloc;
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:single_result_bloc/single_result_bloc.dart';
-import 'package:single_result_bloc/stream_listener.dart';
+import 'package:single_result_bloc/src/stream_listener.dart';
 
 typedef SingleResultListener<SingleResult> = void Function(
   BuildContext context,

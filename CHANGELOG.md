@@ -10,3 +10,7 @@
 
 - Add Dart 3 support
 - Remove deprecated Bloc's API usage
+
+## 0.0.4
+
+- Move sources to separate src folder
