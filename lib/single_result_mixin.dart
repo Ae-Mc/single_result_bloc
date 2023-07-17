@@ -19,7 +19,7 @@ mixin SingleResultMixin<Event, State, SingleResult> on Bloc<Event, State>
 
   @override
   void addSingleResult(SingleResult singleResult) {
-    final observer = BlocOverrides.current?.blocObserver;
+    final observer = Bloc.observer;
     if (observer is SingleResultBlocObserver) {
       observer.onSingleResult(this, singleResult);
     }
